@@ -10,5 +10,58 @@
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
 }
-
+   
+    body {
+    padding: 1rem 5rem;
+    }
+   
+    .hidden {
+    display: none;
+    }
+   
+    .d-nav-container {
+    position: relative;
+    border-bottom: 2px solid #e5e7eb;
+    /* light gray border */
+    }
+   
+    .d-nav-item {
+    position: relative;
+    padding-bottom: 8px;
+    /* Space for the hover line */
+    }
+   
+    .d-nav-item a {
+    text-decoration: none;
+    }
+   
+    .d-nav-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    }
+   
+    .d-nav-item:hover::after,
+    .d-nav-item.active::after {
+    width: 100%;
+    background-color: black;
+    }
+   
+    .footer-section {
+    border-top: 2px solid #e5e7eb;
+    /* light gray border */
+    padding-top: 1rem;
+    }
+   
+    .footer-link {
+    text-decoration: none;
+    }
+    .footer-link:hover {
+    text-decoration: underline;
+    }
 /* Footer - David */
