@@ -1,16 +1,177 @@
 /* Reset */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    font-size: 1rem;
-    font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  --grey-med: #ddd;
+  --grey-light: #f7f7f7;
+  --grey-text-light: #717171;
+  --grey-text-dark: #222;
+  --pink: #ff385c;
 }
 
 /* Main content - Cátia */
 
+.c-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: auto;
+  justify-content: center;
+}
 
+.c-card-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+}
+
+.c-card-image img {
+  border-radius: 10px;
+  min-width: 18rem;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+.c-guest-favourite p {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 30px;
+  text-align: center;
+  padding: 5px 13px;
+  font-weight: bold;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  box-shadow: 0px 0px 11px 0px rgba(125, 125, 125, 0.36);
+}
+
+/* Heart icon */
+
+.c-heart-icon {
+    color: #252525; /* Color of the heart */
+    text-shadow: 0 0 3px white, /* White stroke */ 0 0 3px white, 0 0 3px white;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 1.3rem;
+  }
+  
+.c-heart-icon:hover {
+    transform: scale(1.13); /* Move and slightly increase the size */
+    transition: transform 0.3s linear;
+}
+
+  .c-heart-icon.favorited {
+      color: red;
+  }  
+
+/* Fake carousel */
+
+.c-carousel {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* Center the carousel vertically */
+  color: #303030;
+  transition: opacity 0.3s ease;
+}
+
+.c-carousel-left {
+  left: 10%;
+  transform: translate(-50%, -50%); /* Center horizontally and vertically */
+}
+
+.c-carousel-right {
+  right: 10%;
+  transform: translate(50%, -50%); /* Center horizontally and vertically */
+}
+
+.c-carousel i {
+  z-index: 2; /* Ensure the icon is above the circle */
+  position: relative;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+
+.c-carousel .c-circle-left,
+.c-carousel .c-circle-right {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1; /* Ensure the circle is below the icon */
+  transform: translate(-50%, -50%); /* Center the circle */
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+}
+
+.c-carousel:hover .c-circle-left,
+.c-carousel:hover .c-circle-right {
+  transform: translate(-50%, -50%) scale(1.05); /* Move and slightly increase the size */
+  transition: transform 0.3s ease;
+}
+
+.c-carousel {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.c-card-image:hover .c-carousel {
+  opacity: 1;
+}
+
+.c-carousel-dots i {
+  font-size: 0.4rem;
+  color: #c4c4c4;
+}
+
+.c-carousel-dots {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.c-carousel-dots i:nth-child(1) {
+  color: white;
+}
+
+.c-carousel-dots i:nth-child(4) {
+  font-size: 0.35rem;
+}
+
+.c-carousel-dots i:nth-child(5) {
+  font-size: 0.3rem;
+}
+
+.dots-second i:nth-child(1) {
+  color: #a7a7a7;
+}
+.dots-second i:nth-child(2) {
+  color: white;
+}
+
+.dots-third i:nth-child(1) {
+  color: #a7a7a7;
+}
+.dots-third i:nth-child(3) {
+  color: white;
+}
+
+/* Show more button */
+
+.c-button {
+  background-color: black;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 12px;
+  width: 160px;
+}
