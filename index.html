@@ -52,7 +52,7 @@
         </a>
 			</div>
 
-      <div class="nav">
+      <div class="i-nav">
         <button type="submit" class="nav-button">
           <span>Stays</span>
         </button>
@@ -2042,24 +2042,7 @@
           </button>
         </div>
 
-        <!-- Script to favourite an item -->
-        <!-- 
-    (1) Page Loads: The browser waits until the entire web page is loaded. 
-    (2) Find the Heart Icon: The script finds the heart icon using its id. 
-    (3) Wait for Click: The script watches for a click on the heart icon. 
-    (4) Toggle Class: When the heart icon is clicked, the script toggles the favorited class, changing the heart's color. 
--->
-        <script>
-          document.addEventListener("DOMContentLoaded", function () {
-            const heartIcons = document.querySelectorAll(".c-heart-icon");
-
-            heartIcons.forEach(function (heartIcon) {
-              heartIcon.addEventListener("click", function () {
-                heartIcon.classList.toggle("favorited");
-              });
-            });
-          });
-        </script>
+        
       </div>
     </main>
 
@@ -2070,24 +2053,24 @@
       <!-- Inspiration for future getaways Section -->
       <div class="mb-8 md:mb-0">
       <h3 class="mb-4 font-bold">Inspiration for future getaways</h3>
-      <div class="d-nav-container">
+      <div class="nav-container">
       <ul class="flex flex-col md:flex-row md:flex-wrap space-y-2 md:space-y-0 md:space-x-4">
-      <li class="d-nav-item"><a href="#" class="text-black"
-      onclick="showList('popular', this)">Popular</a></li>
-      <li class="d-nav-item"><a href="#" class="text-black"
-      onclick="showList('historic', this)">Historic</a></li>
-      <li class="d-nav-item"><a href="#" class="text-black"
-      onclick="showList('coastal', this)">Coastal</a></li>
-      <li class="d-nav-item"><a href="#" class="text-black"
-      onclick="showList('islands', this)">Islands</a></li>
-      <li class="d-nav-item"><a href="#" class="text-black" onclick="showList('lakes', this)">Lakes</a>
+      <li class="nav-item"><a href="#" class="text-black"
+      onclick="showList('popular', this); return false;">Popular</a></li>
+      <li class="nav-item"><a href="#" class="text-black"
+      onclick="showList('historic', this); return false;">Historic</a></li>
+      <li class="nav-item"><a href="#" class="text-black"
+      onclick="showList('coastal', this); return false;">Coastal</a></li>
+      <li class="nav-item"><a href="#" class="text-black"
+      onclick="showList('islands', this); return false;">Islands</a></li>
+      <li class="nav-item"><a href="#" class="text-black" onclick="showList('lakes', this)">Lakes</a>
       </li>
-      <li class="d-nav-item"><a href="#" class="text-black"
-      onclick="showList('unique-stays', this)">Unique stays</a></li>
-      <li class="d-nav-item"><a href="#" class="text-black"
-      onclick="showList('categories', this)">Categories</a></li>
-      <li class="d-nav-item"><a href="#" class="text-black"
-      onclick="showList('things-to-do', this)">Things to do</a></li>
+      <li class="nav-item"><a href="#" class="text-black"
+      onclick="showList('unique-stays', this); return false;">Unique stays</a></li>
+      <li class="nav-item"><a href="#" class="text-black"
+      onclick="showList('categories', this); return false;">Categories</a></li>
+      <li class="nav-item"><a href="#" class="text-black"
+      onclick="showList('things-to-do', this); return false;">Things to do</a></li>
       </ul>
       </div>
       </div>
@@ -3406,6 +3389,25 @@
       </div>
     </footer>
     <script>
+//  Script to favourite an item 
+     
+//     (1) Page Loads: The browser waits until the entire web page is loaded. 
+//     (2) Find the Heart Icon: The script finds the heart icon using its id. 
+//     (3) Wait for Click: The script watches for a click on the heart icon. 
+//     (4) Toggle Class: When the heart icon is clicked, the script toggles the favorited class, changing the heart's color. 
+
+       
+          document.addEventListener("DOMContentLoaded", function () {
+            const heartIcons = document.querySelectorAll(".c-heart-icon");
+
+            heartIcons.forEach(function (heartIcon) {
+              heartIcon.addEventListener("click", function () {
+                heartIcon.classList.toggle("favorited");
+              });
+            });
+          });
+        
+
         function showList(listId, element) {
             // Hide all lists
             document.querySelectorAll('#list-container .list').forEach(div => div.classList.add('hidden'));

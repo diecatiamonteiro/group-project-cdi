@@ -19,23 +19,23 @@
     display: none;
     }
    
-    .d-nav-container {
+    .nav-container {
     position: relative;
     border-bottom: 2px solid #e5e7eb;
     /* light gray border */
     }
    
-    .d-nav-item {
+    .nav-item {
     position: relative;
     padding-bottom: 8px;
     /* Space for the hover line */
     }
    
-    .d-nav-item a {
+    .nav-item a {
     text-decoration: none;
     }
    
-    .d-nav-item::after {
+    .nav-item::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -46,8 +46,8 @@
     transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out;
     }
    
-    .d-nav-item:hover::after,
-    .d-nav-item.active::after {
+    .nav-item:hover::after,
+    .nav-item.active::after {
     width: 100%;
     background-color: black;
     }
