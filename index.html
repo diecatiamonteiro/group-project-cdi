@@ -1909,6 +1909,1380 @@
     </main>
 
     <!-- Footer - David -->
-    <footer></footer>
+    
+    <footer class="bg-white py-10 border-t border-gray-200">
+      <div class="container mx-auto px-4">
+      <!-- Inspiration for future getaways Section -->
+      <div class="mb-8 md:mb-0">
+      <h3 class="mb-4 font-bold">Inspiration for future getaways</h3>
+      <div class="d-nav-container">
+      <ul class="flex flex-col md:flex-row md:flex-wrap space-y-2 md:space-y-0 md:space-x-4">
+      <li class="d-nav-item"><a href="#" class="text-black"
+      onclick="showList('popular', this)">Popular</a></li>
+      <li class="d-nav-item"><a href="#" class="text-black"
+      onclick="showList('historic', this)">Historic</a></li>
+      <li class="d-nav-item"><a href="#" class="text-black"
+      onclick="showList('coastal', this)">Coastal</a></li>
+      <li class="d-nav-item"><a href="#" class="text-black"
+      onclick="showList('islands', this)">Islands</a></li>
+      <li class="d-nav-item"><a href="#" class="text-black" onclick="showList('lakes', this)">Lakes</a>
+      </li>
+      <li class="d-nav-item"><a href="#" class="text-black"
+      onclick="showList('unique-stays', this)">Unique stays</a></li>
+      <li class="d-nav-item"><a href="#" class="text-black"
+      onclick="showList('categories', this)">Categories</a></li>
+      <li class="d-nav-item"><a href="#" class="text-black"
+      onclick="showList('things-to-do', this)">Things to do</a></li>
+      </ul>
+      </div>
+      </div>
+      <!-- <div id="popular" class="hidden"> -->
+      <ul id="popular" class="hidden flex flex-row flex-wrap mt-6 gap-4">
+     
+      <li class="w-40">
+      <p class="font-semibold">Aberfeldy</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Amsterdam</p>
+      <p class="text-gray-600">Beach rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Athens</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Aviemore</p>
+      <p class="text-gray-600">Cabin rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Bakewell</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Barcelona</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Bath</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Betws-y-Coed</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Birmingham</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Bordeaux</p>
+      <p class="text-gray-600">Rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Bourton</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Brecon</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Bridport</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Bristol</p>
+      <p class="text-gray-600">House rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Cambridge</p>
+      <p class="text-gray-600">House rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Chamonix</p>
+      <p class="text-gray-600">Ski-in rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Cheddar</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Chester</p>
+      <p class="text-gray-600">House rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Chichester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Davenport</p>
+      <p class="text-gray-600">House rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Exmouth</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Florence</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Kirkby Lonsdale</p>
+      <p class="text-gray-600">House rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Las Vegas</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Leeds</p>
+      <p class="text-gray-600">Cottage rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Leicester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Les Gets</p>
+      <p class="text-gray-600">House rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Liverpool</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">London</p>
+      <p class="text-gray-600">Villa rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Los Angeles</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Manchester</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Munich</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Oxford</p>
+      <p class="text-gray-600">House rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Paris</p>
+      <p class="text-gray-600">Family-friendly rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Peebles</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Rome</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </li>
+      <li class="w-40">
+      <p class="font-semibold">Tenerife</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </li>
+     </ul>
+     </div>
+      <!-- Historic List -->
+      <div id="historic" class="list hidden">
+      <ul id="popular" class="hidden flex justify-start flex-wrap gap-6 mt-6 mb-6 ml-6 mr-6">
+      <div>
+      <p class="font-semibold">Aberfeldy</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Amsterdam</p>
+      <p class="text-gray-600">Beach rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Athens</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Aviemore</p>
+      <p class="text-gray-600">Cabin rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bakewell</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Barcelona</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bath</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Betws-y-Coed</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Birmingham</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bordeaux</p>
+      <p class="text-gray-600">Rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bourton</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Brecon</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bridport</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bristol</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Cambridge</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chamonix</p>
+      <p class="text-gray-600">Ski-in rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Cheddar</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chester</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chichester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Davenport</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Exmouth</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Florence</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Kirkby Lonsdale</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Las Vegas</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Leeds</p>
+      <p class="text-gray-600">Cottage rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Leicester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Les Gets</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Liverpool</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">London</p>
+      <p class="text-gray-600">Villa rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Los Angeles</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Manchester</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Munich</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Oxford</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Paris</p>
+      <p class="text-gray-600">Family-friendly rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Peebles</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Rome</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Tenerife</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      </ul>
+      
+     <!-- </div> -->
+     
+      </div>
+      <!-- Coastal List -->
+      <div id="coastal" class="d-list hidden">
+      <ul id="popular" class="hidden flex flex-row flex-wrap gap-6 mt-6 mb-6 ml-6 mr-6">
+      <div>
+      <p class="font-semibold">Aberfeldy</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Amsterdam</p>
+      <p class="text-gray-600">Beach rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Athens</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Aviemore</p>
+      <p class="text-gray-600">Cabin rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bakewell</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Barcelona</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bath</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Betws-y-Coed</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Birmingham</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bordeaux</p>
+      <p class="text-gray-600">Rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bourton</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Brecon</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bridport</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bristol</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Cambridge</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chamonix</p>
+      <p class="text-gray-600">Ski-in rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Cheddar</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chester</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chichester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Davenport</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Exmouth</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Florence</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Kirkby Lonsdale</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Las Vegas</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Leeds</p>
+      <p class="text-gray-600">Cottage rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Leicester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Les Gets</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Liverpool</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">London</p>
+      <p class="text-gray-600">Villa rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Los Angeles</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Manchester</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Munich</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Oxford</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Paris</p>
+      <p class="text-gray-600">Family-friendly rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Peebles</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Rome</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Tenerife</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      </ul>
+      
+      
+      </div>
+      <!-- Islands List -->
+      <div id="islands" class="list hidden">
+      <ul id="popular" class="hidden flex flex-row flex-wrap gap-6 mt-6 mb-6 ml-6 mr-6">
+      <div>
+      <p class="font-semibold">Aberfeldy</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Amsterdam</p>
+      <p class="text-gray-600">Beach rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Athens</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Aviemore</p>
+      <p class="text-gray-600">Cabin rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bakewell</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Barcelona</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bath</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Betws-y-Coed</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Birmingham</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bordeaux</p>
+      <p class="text-gray-600">Rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bourton</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Brecon</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bridport</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bristol</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Cambridge</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chamonix</p>
+      <p class="text-gray-600">Ski-in rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Cheddar</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chester</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chichester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Davenport</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Exmouth</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Florence</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Kirkby Lonsdale</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Las Vegas</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Leeds</p>
+      <p class="text-gray-600">Cottage rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Leicester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Les Gets</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Liverpool</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">London</p>
+      <p class="text-gray-600">Villa rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Los Angeles</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Manchester</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Munich</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Oxford</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Paris</p>
+      <p class="text-gray-600">Family-friendly rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Peebles</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Rome</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Tenerife</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      </ul>
+      
+      </div>
+      <!-- Lakes List -->
+      <div id="lakes" class="list hidden">
+      <ul id="popular" class="hidden flex flex-row flex-wrap gap-6 mt-6 mb-6 ml-6 mr-6">
+      <div>
+      <p class="font-semibold">Aberfeldy</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Amsterdam</p>
+      <p class="text-gray-600">Beach rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Athens</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Aviemore</p>
+      <p class="text-gray-600">Cabin rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bakewell</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Barcelona</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bath</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Betws-y-Coed</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Birmingham</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bordeaux</p>
+      <p class="text-gray-600">Rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bourton</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Brecon</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bridport</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bristol</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Cambridge</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chamonix</p>
+      <p class="text-gray-600">Ski-in rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Cheddar</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chester</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chichester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Davenport</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Exmouth</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Florence</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Kirkby Lonsdale</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Las Vegas</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Leeds</p>
+      <p class="text-gray-600">Cottage rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Leicester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Les Gets</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Liverpool</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">London</p>
+      <p class="text-gray-600">Villa rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Los Angeles</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Manchester</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Munich</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Oxford</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Paris</p>
+      <p class="text-gray-600">Family-friendly rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Peebles</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Rome</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Tenerife</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      </ul>
+      
+      
+      </div>
+      <!-- Unique Stays List -->
+      <div id="unique-stays" class="list hidden">
+      <ul id="popular" class="hidden flex flex-row flex-wrap gap-6 mt-6 mb-6 ml-6 mr-6">
+      <div>
+      <p class="font-semibold">Aberfeldy</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Amsterdam</p>
+      <p class="text-gray-600">Beach rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Athens</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Aviemore</p>
+      <p class="text-gray-600">Cabin rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bakewell</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Barcelona</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bath</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Betws-y-Coed</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Birmingham</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bordeaux</p>
+      <p class="text-gray-600">Rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bourton</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Brecon</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bridport</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bristol</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Cambridge</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chamonix</p>
+      <p class="text-gray-600">Ski-in rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Cheddar</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chester</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chichester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Davenport</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Exmouth</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Florence</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Kirkby Lonsdale</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Las Vegas</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Leeds</p>
+      <p class="text-gray-600">Cottage rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Leicester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Les Gets</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Liverpool</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">London</p>
+      <p class="text-gray-600">Villa rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Los Angeles</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Manchester</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Munich</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Oxford</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Paris</p>
+      <p class="text-gray-600">Family-friendly rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Peebles</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Rome</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Tenerife</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      </ul>
+      
+      
+      
+      </ul>
+      </div>
+      <!-- Categories List -->
+      <div id="categories" class="list hidden">
+      <ul id="popular" class="hidden flex flex-row flex-wrap gap-6 mt-6 mb-6 ml-6 mr-6">
+      <div>
+      <p class="font-semibold">Aberfeldy</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Amsterdam</p>
+      <p class="text-gray-600">Beach rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Athens</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Aviemore</p>
+      <p class="text-gray-600">Cabin rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bakewell</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Barcelona</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bath</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Betws-y-Coed</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Birmingham</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bordeaux</p>
+      <p class="text-gray-600">Rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bourton</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Brecon</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bridport</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bristol</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Cambridge</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chamonix</p>
+      <p class="text-gray-600">Ski-in rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Cheddar</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chester</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chichester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Davenport</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Exmouth</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Florence</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Kirkby Lonsdale</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Las Vegas</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Leeds</p>
+      <p class="text-gray-600">Cottage rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Leicester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Les Gets</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Liverpool</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">London</p>
+      <p class="text-gray-600">Villa rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Los Angeles</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Manchester</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Munich</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Oxford</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Paris</p>
+      <p class="text-gray-600">Family-friendly rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Peebles</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Rome</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Tenerife</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      </ul>
+      
+      
+      </div>
+      <!-- Things to Do List -->
+      <div id="things-to-do" class="list hidden">
+      <ul id="popular" class="hidden flex flex-row flex-wrap gap-6 mt-6 mb-6 ml-6 mr-6">
+      <div>
+      <p class="font-semibold">Aberfeldy</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Amsterdam</p>
+      <p class="text-gray-600">Beach rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Athens</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Aviemore</p>
+      <p class="text-gray-600">Cabin rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bakewell</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Barcelona</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bath</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Betws-y-Coed</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Birmingham</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bordeaux</p>
+      <p class="text-gray-600">Rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bourton</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Brecon</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bridport</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Bristol</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Cambridge</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chamonix</p>
+      <p class="text-gray-600">Ski-in rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Cheddar</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chester</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Chichester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Davenport</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Exmouth</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Florence</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Kirkby Lonsdale</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Las Vegas</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Leeds</p>
+      <p class="text-gray-600">Cottage rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Leicester</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Les Gets</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Liverpool</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">London</p>
+      <p class="text-gray-600">Villa rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Los Angeles</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Manchester</p>
+      <p class="text-gray-600">Flat rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Munich</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Oxford</p>
+      <p class="text-gray-600">House rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Paris</p>
+      <p class="text-gray-600">Family-friendly rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Peebles</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Rome</p>
+      <p class="text-gray-600">Apartment rentals</p>
+      </div>
+      <div>
+      <p class="font-semibold">Tenerife</p>
+      <p class="text-gray-600">Holiday rentals</p>
+      </div>
+      </ul>
+      </div>
+      </div>
+      </div>
+      <!-- Grid Layout for Support, Hosting, and Airbnb -->
+      <div class="container mx-auto px-4 border-t border-b border-gray-200 mt-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 mb-8">
+      <!-- Support Section -->
+      <div class="mb-8 md:mb-0">
+      <h3 class="mb-4 font-semibold">Support</h3>
+      <ul class="grid grid-cols-1 gap-2">
+      <li><a href="#help-centre" class="text-black footer-link">Help Centre</a></li>
+      <li><a href="#aircover" class="text-black footer-link">AirCover</a></li>
+      <li><a href="#Anti-discrimination" class="text-black footer-link">Anti-discrimination</a></li>
+      <li><a href="#Disability-support" class="text-black footer-link">Disability support</a></li>
+      <li><a href="#Cancellation-Options" class="text-black footer-link">Cancellation Options</a></li>
+      <li><a href="#Report-neighbourhood-concern" class="text-black footer-link">Report neighbourhood
+      concern</a></li>
+      </ul>
+      </div>
+      <!-- Hosting Section -->
+      <div class="mb-8 md:mb-0">
+      <h3 class="mb-4 font-semibold">Hosting</h3>
+      <ul class="grid grid-cols-1 gap-2">
+      <li><a href="#airbnb-your-home" class="text-black footer-link">Airbnb your home</a></li>
+      <li><a href="#aircover-for-hosts" class="text-black footer-link">AirCover for Hosts</a></li>
+      <li><a href="#Hosting-Resources" class="text-black footer-link">Hosting Resources</a></li>
+      <li><a href="#Community-forum" class="text-black footer-link">Community forum</a></li>
+      <li><a href="#Hosting-Responsibly" class="text-black footer-link">Hosting Responsibly</a></li>
+      <li><a href="#Join-a-free-hosting-Class" class="text-black footer-link">Join a free hosting
+      Class</a></li>
+      </ul>
+      </div>
+      <!-- Airbnb Section -->
+      <div>
+      <h3 class="mb-4 font-semibold">Airbnb</h3>
+      <ul class="grid grid-cols-1 gap-2">
+      <li><a href="#newsroom" class="text-black footer-link">Newsroom</a></li>
+      <li><a href="#new-features" class="text-black footer-link">New features</a></li>
+      <li><a href="#Careers" class="text-black footer-link">Careers</a></li>
+      <li><a href="#Investors" class="text-black footer-link">Investors</a></li>
+      <li><a href="#Gift-cards" class="text-black footer-link">Gift cards</a></li>
+      <li><a href="#Airbnb-emergency-stays" class="text-black footer-link">Airbnb emergency stays</a>
+      </li>
+      </ul>
+      </div>
+      </div>
+      <div>
+     
+      </div>
+      </div>
+      <!-- Bottom Section -->
+      <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm mt-8">
+      <!-- Left Section -->
+      <div class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
+      <p>© 2024 Airbnb, Inc.</p><span class="hidden md:inline">·</span><a href="#"
+      class="text-gray-600 hover:underline">Privacy</a><span class="hidden md:inline">·</span><a href="#"
+      class="text-gray-600 hover:underline">Terms</a><span class="hidden md:inline">·</span><a href="#"
+      class="text-gray-600 hover:underline">Sitemap</a><span class="hidden md:inline">·</span><a href="#"
+      class="text-gray-600 hover:underline">UK Modern Slavery Act</a><span
+      class="hidden md:inline">·</span><a href="#" class="text-gray-600 hover:underline">Company
+      details</a><span class="hidden md:inline">·</span><a href="#"
+      class="text-gray-600 hover:underline">Airbnb UK Limited S.172 Statement</a>
+      </div><!-- Right Section -->
+      <div class="flex items-center space-x-4 mt-4 md:mt-0"><a href="#" class="text-gray-600 hover:underline"><i
+      class="fas fa-globe"></i> English (GB)</a><a href="#" class="text-gray-600 hover:underline">£
+      GBP</a><div class="flex space-x-2">
+      <a href="#" class="bg-gray-500 p-2 rounded text-white hover:bg-gray-500">
+      <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" class="bg-gray-500 p-2 rounded text-white hover:bg-grey-500">
+      <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#" class="bg-gray-500 p-2 rounded text-white hover:bg-grey-500">
+      <i class="fab fa-instagram"></i>
+      </a>
+      </div>
+    </footer>
+    <script>
+        function showList(listId, element) {
+            // Hide all lists
+            document.querySelectorAll('#list-container .list').forEach(div => div.classList.add('hidden'));
+            // Show the selected list
+            document.getElementById(listId).classList.remove('hidden');
+
+            // Remove 'active' class from all nav items
+            document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
+
+            // Add 'active' class to the clicked nav item
+            element.parentElement.classList.add('active');
+        }
+
+        function toggleList(button) {
+            const list = button.previousElementSibling;
+            const items = list.children;
+            const hiddenItems = Array.from(items).slice(16);
+
+            hiddenItems.forEach(item => item.classList.toggle('hidden'));
+
+            if (button.textContent === 'Show More') {
+                button.textContent = 'Show Less';
+            } else {
+                button.textContent = 'Show More';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.list ul').forEach(list => {
+                Array.from(list.children).slice(16).forEach(item => item.classList.add('hidden'));
+            });
+        });
+    </script>
   </body>
 </html>
